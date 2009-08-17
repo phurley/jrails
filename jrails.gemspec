@@ -2,7 +2,7 @@ require 'rubygems'
 
 spec = Gem::Specification.new do |s|
   s.name = "jrails"
-  s.version = "0.4.1"
+  s.version = "0.4.2"
   s.authors = ["aaronchi", "Patrick Hurley"]
   s.email = "phurley@gmail.com"
   s.homepage = "http://ennerchi.com/projects/jrails"
