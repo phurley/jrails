@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
                   "functionality using the lighter jQuery library."
   
   #files = IO.read("Manifest.txt").split
-  files = %Q[
+  files = %W[
 CHANGELOG
 Manifest.txt
 README
