@@ -1,6 +1,5 @@
-require 'rubygems'
 
-spec = Gem::Specification.new do |s|
+Gem::Specification.new do |s|
   s.name = "jrails"
   s.version = "0.4.2"
   s.authors = ["aaronchi", "Patrick Hurley"]
@@ -20,7 +19,3 @@ spec = Gem::Specification.new do |s|
   s.has_rdoc = false
 end
 
-if  __FILE__ == $PROGRAM_NAME
-  Gem::manage_gems
-  Gem::Builder.new(spec).build
-end
