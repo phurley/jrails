@@ -11,7 +11,28 @@ Gem::Specification.new do |s|
                   "Using jRails, you can get all of the same default Rails helpers for javascript " +
                   "functionality using the lighter jQuery library."
   
-  files = IO.read("Manifest.txt").split
+  #files = IO.read("Manifest.txt").split
+  files = %Q[
+CHANGELOG
+Manifest.txt
+README
+install.rb
+init.rb
+bin
+bin/jrails
+javascripts
+javascripts/jquery-ui.js
+javascripts/jquery.js
+javascripts/jrails.js
+javascripts/sources
+javascripts/sources/jrails.js
+lib
+lib/jrails.rb
+tasks/
+tasks/jrails.rake
+rails/init.rb
+  ]
+
   s.files = files
 
   s.executables = ['jrails']
